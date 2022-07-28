@@ -11,12 +11,20 @@ function CardWithBtn({ title, discription, query, qName }) {
         <div>
           <p className="discription">{discription}</p>
         </div>
-        <button>
-          <Link to={query}>{qName}</Link>
+        <button className="btn">
+          <Link to={query} style={style.link}>
+            {qName}
+          </Link>
         </button>
       </div>
     </div>
   );
 }
+const style = {
+  link: {
+    textDecoration: "none",
+    color: "white",
+  },
+};
 
 export default CardWithBtn;

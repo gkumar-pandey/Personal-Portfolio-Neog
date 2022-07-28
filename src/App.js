@@ -18,7 +18,7 @@ function App() {
           <Route path="/blog" element={<Blog />} />u
         </Routes>
       </Router>
-      <Footer/>
+      <Footer />
     </div>
   );
 }

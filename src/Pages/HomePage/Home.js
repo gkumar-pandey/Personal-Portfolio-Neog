@@ -6,7 +6,7 @@ import CardWithBtn from "../../Components/CardwithBtn/CardWithBtn";
 
 function Home() {
   const name = "<Gautam Kumar Pandey/>";
-  const bolgDis = "";
+  const bolgDis = "I also like to write blogs. Check out here 👇";
   const discription = `I'm Gautam a EEE undergrad who is interested in Web development and Competetive Programming. i have a passion for creating beautiful web application. i like to code and learn new tech`;
   const techDis =
     "I'm familiar with HTML5, CSS, JavaScript, ReactJs, C++, Python, Bootstrap, MaterialUI, Git,Github ";
