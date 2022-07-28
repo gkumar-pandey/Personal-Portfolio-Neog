@@ -1,0 +1,25 @@
+.aboutcard {
+  padding: 1rem;
+  text-align: center;
+}
+.card {
+  border: 1px solid red;
+  border-radius: 0.8rem;
+  width: 50%;
+  margin: auto;
+  padding: 0.4rem;
+}
+.title {
+  font-size: 2.2rem;
+}
+.discription {
+  font-size: 1.5rem;
+  width: 100%;
+  text-align: justify;
+  padding: 0.5rem;
+}
+@media only screen and (max-width: 600px) {
+  .card {
+    width: 100%;
+  }
+}

@@ -1,0 +1,37 @@
+.img-container {
+  text-align: center;
+  margin: auto;
+  width: 100%;
+}
+
+.header-img {
+  padding: 1rem;
+
+  width: 30%;
+}
+.name {
+  text-align: center;
+  padding: 5px;
+}
+.name h2 {
+  font-size: 3rem;
+}
+.name p {
+  font-size: 1.6rem;
+  padding: 0.4rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .img-container {
+    width: 80%;
+  }
+  .header-img {
+    width: 100%;
+  }
+  .name h2 {
+    font-size: 1.5rem;
+  }
+  .name p {
+    font-size: 1.2rem;
+  }
+}
