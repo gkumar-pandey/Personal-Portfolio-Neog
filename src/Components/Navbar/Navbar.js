@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "./Navbar.css";
 
-function Navbar() {
+function Navbar({ mode, handleDarkMode }) {
   return (
     <div>
       <nav className="nav-bar">
@@ -10,6 +10,7 @@ function Navbar() {
           <h3>Gautam Kumar Pandey</h3>
         </div>
         <div className="links">
+          <p onClick={handleDarkMode}>{mode}</p>
           <Link to={"/"} style={style.link}>
             Home
           </Link>
@@ -27,7 +28,7 @@ function Navbar() {
 const style = {
   link: {
     textDecoration: "none",
-    color: 'black'
+    color: "black",
   },
 };
 
