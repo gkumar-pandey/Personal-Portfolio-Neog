@@ -33,8 +33,8 @@ function Footer() {
 }
 const style = {
   icon: {
-    fontSize: "3rem",
-    padding: "10px",
+    fontSize: "2.3rem",
+    padding: "8px",
   },
 };
 

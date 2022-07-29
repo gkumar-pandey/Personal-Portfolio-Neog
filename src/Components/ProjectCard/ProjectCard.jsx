@@ -8,25 +8,26 @@ function ProjectCard({ title, tech, discription, liveLink, sourceLink, date }) {
           <h2 className="title">{title}</h2>
         </div>
         <div>
-          <p>{date}</p>
+          <p className="date">{date}</p>
         </div>
         <div>
-          <p>{tech}</p>
+          <p className="tech">{tech}</p>
         </div>
         <div>
-          <p>{discription}</p>
+          <p className="discription">{discription}</p>
         </div>
         <div>
           <a href={liveLink} target="_blank">
-            <button>Live Demo</button>
+            <button className="live-btn">Live Demo</button>
           </a>
           <a href={sourceLink} target="_blank">
-            <button>Source Code</button>
+            <button className="live-btn source-btn">Source Code</button>
           </a>
         </div>
       </div>
     </div>
   );
 }
+
 
 export default ProjectCard;
