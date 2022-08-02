@@ -6,14 +6,16 @@ import {
   faGithubSquare,
 } from "@fortawesome/free-brands-svg-icons";
 
-function Footer() {
+function Footer({ isDarkMode }) {
   const user = {
     githubHandle: "https://github.com/gkumar-pandey",
     linkedinHandle: "https://www.linkedin.com/in/gkpandey/",
     twitterHandle: "https://twitter.com/gautamkp078",
   };
+  const bgColor = isDarkMode ? "#1B2430" : "#262534";
+
   return (
-    <div className="footer">
+    <div className="footer" style={{backgroundColor: `${bgColor}`}}>
       <div>
         <p>CONNECT WITH ME</p>
       </div>

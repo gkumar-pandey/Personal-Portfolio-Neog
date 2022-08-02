@@ -17,7 +17,7 @@ function Home() {
       <Header img={img1} />
       <div className="name">
         <h2>👋 Hii i'm {name} </h2>
-        <p>Frontend Developer | Competerive Programmer</p>
+        <p>Frontend Developer | Competetive Programmer</p>
       </div>
       <Aboutcard title="About" discription={discription} />
       <Aboutcard title="Technologies" discription={techDis} />

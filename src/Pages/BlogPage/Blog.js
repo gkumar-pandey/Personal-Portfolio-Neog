@@ -4,9 +4,9 @@ import img3 from "../../Assets/img3.svg";
 
 function Blog() {
   return (
-    <>
+    <div className='blog-page'>
       <Header img={img3} />
-    </>
+    </div>
   );
 }
 

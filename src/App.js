@@ -19,7 +19,9 @@ function App() {
     }
   };
   return (
-    <div style={isDarkMode?{backgroundColor: 'black', color:'white'}:{}}>
+    <div
+      style={isDarkMode ? { backgroundColor: "#1B2430", color: "white" } : {}}
+    >
       <Router>
         <Navbar
           mode={
@@ -30,15 +32,19 @@ function App() {
             )
           }
           handleDarkMode={handleDarkMode}
+          isDarkMode={isDarkMode}
         />
 
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/project" element={<ProjectPage />} />
+          <Route
+            path="/project"
+            element={<ProjectPage isDarkMode={isDarkMode} />}
+          />
           <Route path="/blog" element={<Blog />} />u
         </Routes>
       </Router>
-      <Footer />
+      <Footer isDarkMode={isDarkMode} />
     </div>
   );
 }

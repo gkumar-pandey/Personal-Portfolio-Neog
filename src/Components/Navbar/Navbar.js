@@ -2,22 +2,32 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "./Navbar.css";
 
-function Navbar({ mode, handleDarkMode }) {
+function Navbar({ mode, handleDarkMode, isDarkMode }) {
+  let Color = isDarkMode ? "white" : "black";
+
   return (
     <div>
       <nav className="nav-bar">
         <div className="logo">
-          <h3>Gautam Kumar Pandey</h3>
+          <h3 style={{ color: isDarkMode ? "#36ae7c" : "black" }}>
+            Gautam Kumar Pandey
+          </h3>
         </div>
         <div className="links">
           <p onClick={handleDarkMode}>{mode}</p>
-          <Link to={"/"} style={style.link}>
+          <Link to={"/"} style={{ textDecoration: "none", color: `${Color}` }}>
             Home
           </Link>
-          <Link to={"/project"} style={style.link}>
+          <Link
+            to={"/project"}
+            style={{ textDecoration: "none", color: `${Color}` }}
+          >
             Project
           </Link>
-          <Link to={"/blog"} style={style.link}>
+          <Link
+            to={"/blog"}
+            style={{ textDecoration: "none", color: `${Color}` }}
+          >
             Blog
           </Link>
         </div>
@@ -25,11 +35,5 @@ function Navbar({ mode, handleDarkMode }) {
     </div>
   );
 }
-const style = {
-  link: {
-    textDecoration: "none",
-    color: "black",
-  },
-};
 
 export default Navbar;

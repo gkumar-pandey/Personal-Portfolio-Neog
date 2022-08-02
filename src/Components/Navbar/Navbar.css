@@ -1,11 +1,9 @@
 .nav-bar {
-  /* border: 1px solid red; */
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 1rem;
   flex-wrap: wrap;
-  border-bottom: 3px solid #eee;
   z-index: 100;
   position: sticky;
 }
@@ -14,34 +12,26 @@
   font-family: "Courier New", Courier, monospace;
 }
 .links {
-  /* border: 1px solid red; */
   display: flex;
-  /* font-weight: 600; */
-  flex-grow: 0.4;
+  flex-grow: 0.2;
   font-size: 1.4rem;
   align-items: center;
   justify-content: space-around;
 }
 
-@media only screen and (max-width: 600px){
-  .nav-bar{
-    /* border: 1px solid red; */
+@media only screen and (max-width: 600px) {
+  .nav-bar {
     padding: 0.6rem 0;
-
   }
-  .logo{
+  .logo {
     width: 100%;
-    /* text-align: center; */
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  
-  .links{
-    /* border: 1px solid red; */
-    flex-grow: 1;
+
+  .links {
+    flex-grow: 0.8;
     padding: 5px 0;
-    /* padding: 1rem; */
-    /* justify-content: end; */
   }
 }

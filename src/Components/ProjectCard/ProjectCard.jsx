@@ -1,17 +1,29 @@
 import React from "react";
 
-function ProjectCard({ title, tech, discription, liveLink, sourceLink, date }) {
+function ProjectCard({
+  title,
+  tech,
+  discription,
+  liveLink,
+  sourceLink,
+  date,
+  mark,
+  isDarkMode
+}) {
+  const color = isDarkMode? '#00ffab': 'black';
   return (
+    
     <div className="aboutcard">
       <div className="card">
         <div>
           <h2 className="title">{title}</h2>
+          <h3 className="mark" style={{color:`${color}`}}>{mark}</h3>
         </div>
         <div>
           <p className="date">{date}</p>
         </div>
         <div>
-          <p className="tech">{tech}</p>
+          <p className="tech" style={{color: `${color}`}}>{tech}</p>
         </div>
         <div>
           <p className="discription">{discription}</p>
@@ -28,6 +40,5 @@ function ProjectCard({ title, tech, discription, liveLink, sourceLink, date }) {
     </div>
   );
 }
-
 
 export default ProjectCard;
