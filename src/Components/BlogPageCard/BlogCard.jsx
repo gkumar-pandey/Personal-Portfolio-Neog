@@ -1,12 +1,12 @@
 import React from "react";
-import './BlogCard.css'
+import "./BlogCard.css";
 
 function BlogCard({ title, discription, BlogLink }) {
   return (
     <div className="aboutcard">
       <div className="card">
         <div>
-          <h2 style={{fontSize: '1.7rem'}}>{title}</h2>
+          <h2 style={{ fontSize: "1.7rem" }}>{title}</h2>
         </div>
         <div>
           <p className="discription">{discription}</p>
@@ -18,6 +18,5 @@ function BlogCard({ title, discription, BlogLink }) {
     </div>
   );
 }
-
 
 export default BlogCard;

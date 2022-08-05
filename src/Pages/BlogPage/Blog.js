@@ -27,7 +27,7 @@ function Blog({ isDarkMode }) {
           fontSize: "1.9rem",
           textAlign: "center",
           color: isDarkMode ? "#00ffab" : "Black",
-          padding: '10px'
+          padding: "10px",
         }}
       >
         <h2>My Blogs</h2>
