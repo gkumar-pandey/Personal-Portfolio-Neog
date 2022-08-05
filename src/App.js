@@ -41,7 +41,7 @@ function App() {
             path="/project"
             element={<ProjectPage isDarkMode={isDarkMode} />}
           />
-          <Route path="/blog" element={<Blog />} />u
+          <Route path="/blog" element={<Blog isDarkMode={isDarkMode} />} />u
         </Routes>
       </Router>
       <Footer isDarkMode={isDarkMode} />
