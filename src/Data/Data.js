@@ -77,7 +77,7 @@ const projectDetails = [
     SourceLink: "https://github.com/gkumar-pandey/Fun-With-Triangle",
     Disc: "Web App build using Vanilla JavaScript.Which takes user birth date and user lucky number as input and shows user bithdate lucky or not",
     date: "July 2022",
-    LiveLink: "",
+    LiveLink: "https://fun-with-triangle.vercel.app/",
     techUsed: "Technology: ReactJs, CSS",
   },
   {
