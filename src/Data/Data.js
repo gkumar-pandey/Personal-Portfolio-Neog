@@ -95,7 +95,7 @@ const projectDetails = [
     SourceLink: "https://github.com/gkumar-pandey/profit-and-loss-calculator",
     Disc: "A web app which takes the price of stocks while purchasing and current price along with the number of stocks and gives the percentage and absolute value of profit or loss earned",
     date: "July 2022",
-    LiveLink: "https://celebrated-tarsier-5e1381.netlify.app/",
+    LiveLink: "https://gkumar-pandey.github.io/profit-and-loss-calculator/",
     techUsed: "Technology: HTML, CSS,JavaScript",
   },
 ];

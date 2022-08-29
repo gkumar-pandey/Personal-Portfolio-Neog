@@ -27,6 +27,7 @@
   background-color: #36ae7c;
   font-weight: 600;
   color: white;
+  cursor: pointer;
 }
 .tech {
   font-size: 1.5rem;
