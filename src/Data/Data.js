@@ -85,8 +85,8 @@ const projectDetails = [
     mark: "Mark 13",
     Disc: "A web app  which tells you if your birthdate is palindrome or not. if not then it show nearest palindrome date and the number of days by which you missed it.",
     date: "August 2022",
-    LiveLink: "https://elaborate-axolotl-219cb9.netlify.app/",
-    SourceLink: "https://pallindrome-birthdate.netlify.app/",
+    LiveLink: "https://pallindrome-birthdate.netlify.app/",
+    SourceLink: "https://github.com/gkumar-pandey/BirthDay-pallindrome",
     techUsed: "Technology: Html, css JavaScript",
   },
   {
